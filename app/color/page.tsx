@@ -31,7 +31,7 @@ const ColorPalette: React.FC = () => {
     };
 
     return (
-        <div className="">
+        <div className="   min-h-screen">
             <h1 className="text-2xl font-bold mb-4">Color Palette</h1>
             <div className="flex space-x-2">
                 {colors.map((color, index) => (
